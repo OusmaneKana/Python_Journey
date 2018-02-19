@@ -2,8 +2,25 @@
 from __future__ import print_function
 
 from IPython.display import clear_output
+board = [1,2,3,4,5,6,7,8,9]
 def display_board(board):
-	pass
+	clear_output()
+	print("+---------+---------+---------+")
+	print("|         |         |         |")
+	print("|         |         |         |")
+	print("|         |         |         |")
+	print("|         |         |         |")
+	print("+---------+---------+---------+")
+	print("|         |         |         |")
+	print("|         |         |         |")
+	print("|         |         |         |")
+	print("|         |         |         |")
+	print("+---------+---------+---------+")
+	print("|         |         |         |")
+	print("|         |         |         |")
+	print("|         |         |         |")
+	print("|         |         |         |")
+	print("+---------+---------+---------+")
 
 def player_input():
 	pass
@@ -28,3 +45,4 @@ def replay():
 	pass
 
 print('Welcome to Tic Tac Toe!')
+display_board(board)
