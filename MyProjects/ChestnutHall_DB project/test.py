@@ -25,6 +25,8 @@ entry = Entry(parent, text=caption, textvariable=content)
 
 text = content.get()
 content.set(text)
+Submit_btn = Button(parent)
+Submit_btn.pack()
 
 master.mainloop()
 

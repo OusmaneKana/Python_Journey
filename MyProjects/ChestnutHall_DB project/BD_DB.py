@@ -143,6 +143,7 @@ Submit_btn.grid(row=7, column=1)
 tab_control.pack(expand=1, fill='both')
 window.mainloop()
 
+
 e1= Entry(tab1, width=10)
 first_name = e1.get()
 
