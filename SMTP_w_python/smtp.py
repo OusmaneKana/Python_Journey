@@ -15,8 +15,6 @@ Here are four basic steps for sending emails using Python:
 MY_ADDRESS = 
 PASSWORD = 
 
-
-
 # First we get the contact names from the list
 
 def get_contacts(filename):
