@@ -12,8 +12,8 @@ Here are four basic steps for sending emails using Python:
     """
 
 #Set your credentials here
-# MY_ADDRESS = 
-# PASSWORD =
+MY_ADDRESS = 
+PASSWORD = 
 
 
 
