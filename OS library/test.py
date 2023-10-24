@@ -24,7 +24,8 @@ class file_path(object):
 			#open
 
 
-	def course_folder(self)
+	def course_folder(self):
+		...
 
 
 
